@@ -1,0 +1,179 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 1rem;
+}
+
+abbr {
+  color: lightcoral;
+}
+
+.body {
+  padding: 2rem;
+}
+
+.content {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+  padding: 3rem 3rem 1rem;
+  width: 960px;
+}
+
+.header {
+  border-bottom: 4px solid #000;
+  clear: both;
+  margin-bottom: 2rem;
+}
+
+.header__title {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.header__subtitle {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.address {
+  font-size: .8rem;
+  float: right;
+  padding: .6rem 0;  
+  text-align: right;
+  font-style: normal;  
+}
+
+.address__link {
+  color: #000;
+  text-decoration: none;
+}
+
+.address__link:hover {
+  text-decoration: underline;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+.section__title {
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section__title:before,
+.section__title:after {
+  background-color: #ccc;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.section__title:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.section__title:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.summary {
+  line-height: 1.5;
+}
+
+.qualifications {
+  font-size: .8rem;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.qualifications tr,
+.qualifications th,
+.qualifications td {
+  border: 1px solid #ccc;
+  padding: .8rem;
+}
+
+.qualifications th {
+  background-color: #f8f8f8;
+}
+
+.tag {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: .8rem;
+  margin: .1rem;
+  padding: .2rem .5rem;
+}
+
+.levels {
+  font-size: .8rem;
+  margin-bottom: .5rem;
+  text-align: right;
+}
+
+.tag-expert {
+  background-color: greenyellow;
+}
+
+.tag-proficient {
+  background-color: yellow;
+}
+
+.tag-beginner {
+  border: 1px solid #999;
+  background-color: whitesmoke;
+}
+
+.workitems {
+  list-style: none;
+  padding: 0;
+}
+
+.workitem {
+  clear: both;
+  margin-bottom: 2rem;
+}
+
+.workitem__year {
+  float: right;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.workitem__title {
+  text-transform: uppercase;
+  margin-bottom: .4rem;
+}
+
+.workitem__location {
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+.workitem__role {
+  font-weight: 400;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.workitem__responsabilities {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: .9rem;
+  list-style: square;
+  padding-left: 1rem;
+}
+
+.workitem__responsabilities li {
+  width: 45%;
+  margin: .5rem 1rem;
+}
+
