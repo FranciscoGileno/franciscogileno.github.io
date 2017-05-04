@@ -101,34 +101,18 @@ abbr {
 
 .qualifications th {
   background-color: #f8f8f8;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .tag {
-  border: 1px solid transparent;
-  border-radius: 4px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
   display: inline-block;
   font-size: .8rem;
   margin: .1rem;
   padding: .2rem .5rem;
-}
 
-.levels {
-  font-size: .8rem;
-  margin-bottom: .5rem;
-  text-align: right;
-}
-
-.tag-expert {
-  background-color: greenyellow;
-}
-
-.tag-proficient {
-  background-color: yellow;
-}
-
-.tag-beginner {
-  border: 1px solid #999;
-  background-color: whitesmoke;
 }
 
 .workitems {
@@ -165,15 +149,12 @@ abbr {
 }
 
 .workitem__responsabilities {
-  display: flex;
-  flex-wrap: wrap;
   font-size: .9rem;
   list-style: square;
-  padding-left: 1rem;
+  padding-left: 0;
 }
 
 .workitem__responsabilities li {
-  width: 45%;
   margin: .5rem 1rem;
 }
 
